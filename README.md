@@ -2,7 +2,7 @@ O arquivo `estoque.php` é a entrada da aplicação e apresenta o json esperado 
 
 Variáveis de acesso ao banco de dados postgres aparecem hardcoded em `estoque.php` (`$dbHost`, `$dbName`, `$dbUser`, `$dbPassword` ) e **devem ser alteradas de acordo com os valores usados no banco de dados do ambiente de execução da aplicação.**
 
-O script `estoquedb.sql` contém o código para criação de um banco de dados de teste com nome testdb, tabelas e inserções conforme o enunciado. Pode ser executado de um terminal psql usando o comando `\i`, caso em que, mesmo no windows o caminho do arquivo deve ser separado por `/` e não por `\`.
+O script `estoquedb.sql` contém o código para criação de um banco de dados de teste com nome testdb, tabelas e inserções conforme o enunciado. Pode ser executado de um terminal psql usando o comando `\i`, caso em que, mesmo no windows, o caminho do arquivo deve ser separado por `/` e não por `\`.
 
 `
 \i Driver:/pasta/estoquedb.sql
